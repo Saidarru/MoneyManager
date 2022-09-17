@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.title-history-container {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #d7dfe9;
+  width: 100%;
+  padding-left: 20px;
+}
+.lists-history {
+  color: #7e858e;
+  font-size: 14px;
+  font-family: 'roboto';
+
+  width: 120px;
+  margin-right: 15px;
+}
+.delete-icon {
+  width: 20px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

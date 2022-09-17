@@ -1,0 +1,131 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  padding: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+
+  height: 130px;
+  border-radius: 20px;
+
+  padding-left: 50px;
+}
+.name-heading {
+  color: #475569;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  padding-top: 35px;
+}
+.description {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.span {
+  color: #0b69ff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.input-history-container {
+  display: flex;
+  justify-content: space-between;
+}
+.input-container {
+  border: 1px solid #7e858e;
+  width: 45%;
+  height: 410px;
+  padding: 40px;
+  padding-top: 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.transaction {
+  color: #334155;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.label {
+  color: #7e858e;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 600;
+
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+.input {
+  width: 300px;
+  height: 35px;
+  border: 1px solid #d7dfe9;
+  outline: none;
+}
+
+.list-container {
+  padding: 0;
+}
+.button {
+  width: 70px;
+  height: 35px;
+
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  background-color: #0b69ff;
+
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.his-container {
+  width: 50%;
+  padding: 40px;
+  margin: 0;
+  border-radius: 25px;
+  border: 1px solid #7e858e;
+}
+
+.history-container {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+}
+
+.title-history-container {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #d7dfe9;
+  width: 100%;
+  padding-left: 20px;
+}
+.history-transaction {
+  display: flex;
+  width: 100%;
+}
+
+.title {
+  color: #1e293b;
+  font-size: 14px;
+  font-family: 'roboto';
+  font-weight: 500;
+  width: 120px;
+  margin-right: 15px;
+}
